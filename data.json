@@ -1,0 +1,72 @@
+{
+    "cards": [
+        {
+            "signs": [
+                {"number": "A", "sign": "heart", "value": "-1", "img": "images/cuori.png"},
+                {"number": "2", "sign": "heart", "value": "2", "img": "images/cuori.png"},
+                {"number": "3", "sign": "heart", "value": "2", "img": "images/cuori.png"},
+                {"number": "4", "sign": "heart", "value": "1", "img": "images/cuori.png"},
+                {"number": "5", "sign": "heart", "value": "1", "img": "images/cuori.png"},
+                {"number": "6", "sign": "heart", "value": "1", "img": "images/cuori.png"},
+                {"number": "7", "sign": "heart", "value": "2", "img": "images/cuori.png"},
+                {"number": "8", "sign": "heart", "value": "0", "img": "images/cuori.png"},
+                {"number": "9", "sign": "heart", "value": "0", "img": "images/cuori.png"},
+                {"number": "10", "sign": "heart", "value": "-2", "img": "images/cuori.png"},
+                {"number": "J", "sign": "heart", "value": "-2", "img": "images/cuori.png"},
+                {"number": "Q", "sign": "heart", "value": "-2", "img": "images/cuori.png"},
+                {"number": "K", "sign": "heart", "value": "-2", "img": "images/cuori.png"}
+            ], "sign" :"heart"
+        },
+        {
+            "signs": [
+                {"number": "A", "sign": "spades", "value": "-1", "img": "images/picche.png"},
+                {"number": "2", "sign": "spades", "value": "2", "img": "images/picche.png"},
+                {"number": "3", "sign": "spades", "value": "2", "img": "images/picche.png"},
+                {"number": "4", "sign": "spades", "value": "1", "img": "images/picche.png"},
+                {"number": "5", "sign": "spades", "value": "1", "img": "images/picche.png"},
+                {"number": "6", "sign": "spades", "value": "1", "img": "images/picche.png"},
+                {"number": "7", "sign": "spades", "value": "2", "img": "images/picche.png"},
+                {"number": "8", "sign": "spades", "value": "0", "img": "images/picche.png"},
+                {"number": "9", "sign": "spades", "value": "0", "img": "images/picche.png"},
+                {"number": "10", "sign": "spades", "value": "-2", "img": "images/picche.png"},
+                {"number": "J", "sign": "spades", "value": "-2", "img": "images/picche.png"},
+                {"number": "Q", "sign": "spades", "value": "-2", "img": "images/picche.png"},
+                {"number": "K", "sign": "spades", "value": "-2", "img": "images/picche.png"}
+            ],"sign" :"spades"
+        },
+        {
+            "signs": [
+                {"number": "A", "sign": "clubs", "value": "-1", "img": "images/fiori.png"},
+                {"number": "2", "sign": "clubs", "value": "2", "img": "images/fiori.png"},
+                {"number": "3", "sign": "clubs", "value": "2", "img": "images/fiori.png"},
+                {"number": "4", "sign": "clubs", "value": "1", "img": "images/fiori.png"},
+                {"number": "5", "sign": "clubs", "value": "1", "img": "images/fiori.png"},
+                {"number": "6", "sign": "clubs", "value": "1", "img": "images/fiori.png"},
+                {"number": "7", "sign": "clubs", "value": "2", "img": "images/fiori.png"},
+                {"number": "8", "sign": "clubs", "value": "0", "img": "images/fiori.png"},
+                {"number": "9", "sign": "clubs", "value": "0", "img": "images/fiori.png"},
+                {"number": "10", "sign": "clubs", "value": "-2", "img": "images/fiori.png"},
+                {"number": "J", "sign": "clubs", "value": "-2", "img": "images/fiori.png"},
+                {"number": "Q", "sign": "clubs", "value": "-2", "img": "images/fiori.png"},
+                {"number": "K", "sign": "clubs", "value": "-2", "img": "images/fiori.png"}
+            ],"sign" :"clubs"
+        },
+        {
+            "signs": [
+                {"number": "A", "sign": "diamonds", "value": "-1", "img": "images/quadri.png"},
+                {"number": "2", "sign": "diamonds", "value": "2", "img": "images/quadri.png"},
+                {"number": "3", "sign": "diamonds", "value": "2", "img": "images/quadri.png"},
+                {"number": "4", "sign": "diamonds", "value": "1", "img": "images/quadri.png"},
+                {"number": "5", "sign": "diamonds", "value": "1", "img": "images/quadri.png"},
+                {"number": "6", "sign": "diamonds", "value": "1", "img": "images/quadri.png"},
+                {"number": "7", "sign": "diamonds", "value": "2", "img": "images/quadri.png"},
+                {"number": "8", "sign": "diamonds", "value": "0", "img": "images/quadri.png"},
+                {"number": "9", "sign": "diamonds", "value": "0", "img": "images/quadri.png"},
+                {"number": "10", "sign": "diamonds", "value": "-2", "img": "images/quadri.png"},
+                {"number": "J", "sign": "diamonds", "value": "-2", "img": "images/quadri.png"},
+                {"number": "Q", "sign": "diamonds", "value": "-2", "img": "images/quadri.png"},
+                {"number": "K", "sign": "diamonds", "value": "-2", "img": "images/quadri.png"}
+            ], "sign" :"diamonds"
+        }
+    ]
+}
