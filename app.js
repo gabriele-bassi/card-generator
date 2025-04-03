@@ -1,13 +1,15 @@
-
+let input = document.getElementById("seconds")
 const loadCards = async()=>{
     let cards =await fetch("data.json")
     return await cards.json()
     
 }
+let refreshTime = 1000;
+
+
 const shuffleCards = (cards)=>{
     let woringArray = new Array()
     cards.cards.forEach(sign => {
-        console.log(sign)
         sign.signs.forEach(card=>{
             woringArray.push(card)
         })
@@ -21,7 +23,7 @@ document.addEventListener("DOMContentLoaded",async()=>{
     let cardContainer = document.getElementById("card-container")
     let sum = 0;
     for(let i=0;i<40;i++){
-        await new Promise(r => setTimeout(r, 1000));
+        await new Promise(r => setTimeout(r, refreshTime));
         while (cardContainer.firstChild) {
             cardContainer.removeChild(cardContainer.lastChild);
         }
@@ -50,6 +52,6 @@ document.addEventListener("DOMContentLoaded",async()=>{
     
     let result = document.createElement("p")
     result.className = "result"
-    result.innerHTML = `Risultato dell'algoritmo ZEN ${sum}` 
+    result.innerHTML = `Risultato dell'algoritmo ZEN :  ${sum}` 
     cardContainer.appendChild(result)
 })

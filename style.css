@@ -2,9 +2,31 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 56, 0, 0.829);
+    font-family: "Poppins" ,sans-serif;
 }
 
 .container{
     display: flex;
     flex-direction: column;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.result{
+    font-weight: bolder;
+    font-size: 110%;
+}
+#reload{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgba(177, 255, 177, 0.527);
+    color: white;
+    font-weight: bolder;
 }
